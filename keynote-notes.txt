@@ -1,0 +1,555 @@
+#Welcome
+##Why I’m Here
+I’m a bit of an odd fish since this is largely a K12 conference and my focus is andragogy not pedagogy. But it is y’all the K12 folks who have actually done some the best research work, so that is why I want to be here. 
+
+##What is in these notes
+These “presenter notes” are going to be more of brain dump for people to refer to later since I can’t possibly cover all the material in 10 minutes.
+
+##Link Dump
+
+Just to put them out there, some links on constructivism itself. You’ll as I go on notice that I’m not a pure constructivist when it comes to teaching pure novices.
+
+-  http://www.exploratorium.edu/ifi/resources/constructivistlearning.html
+-  http://en.wikipedia.org/wiki/Constructivism_(philosophy_of_education)
+	-  http://www.thirteen.org/edonline/concept2class/constructivism/
+	- http://www.constructivisttoolkit.com/
+	- http://www.thirteen.org/edonline/concept2class/constructivism/
+		- http://www.thirteen.org/edonline/concept2class/resources.html
+		- http://www.thirteen.org/edonline/concept2class/constructivism/lp_hs_intro.html
+	- http://learnweb.harvard.edu/alps/home/index.cfm
+	- http://citizenibm.com/2012/03/grades-9-through-14-school-model-strengthens-education-to-work-system.html
+	- http://teacherstryscience.org/
+
+##How these notes were produced
+
+Thank you GitHub and AppleScript.
+
+- http://apple.stackexchange.com/questions/136118/how-to-print-full-presenter-notes-without-slides-in-keynote 
+- https://gist.github.com/cyli/4644918
+- http://dooling.com/index.php/2014/11/03/export-keynote-text-markdown-file/ #Table of Contents
+- How I Got to PCC
+	- My Cred
+	- DIY Girls
+	- DesignTech
+- Comparisons
+	- Class Design Spec
+	- Audience
+	- Operations
+Conceptual Schema
+Engineering Design
+Design Narrative
+Resources & Lessons Plans
+Define
+Gather
+Build
+Reflect#How I Went from a Hackerspace to PCC##My Cred
+
+First, by way of introduction, I would like to go into why when I showed up in Dean Dávila’s office, what some of my abilities were that he was hoping I could bring to PCC. 
+
+Part of my pitch to them is developing a curriculum that will prepare students to creating IoT products.  Not sure what IoT is: https://twitter.com/badiotday###Founder of CRASH Space
+
+CRASH Space was the first hackerspace in Los Angeles. We signed our lease in December of 2014 and opened for business in January of 2010. At 5 years with all of the original officers still members of the space, and 3 still on the board, we’ve been pretty low drama.  That is the most important to me. More important to most people is that we’ve been operating in the black for most of our life.  
+
+This image is Sparkles the Soldering Iron Unicorn as seen on Boing Boing in our early days:
+http://boingboing.net/2010/11/10/sparkles-the-solderi.html
+
+####Critical Stats
+http://blog.crashspace.org/
+@crashspacela
+http://www.instructables.com/group/crashspace/ 
+
+We have a camera with an Eye-Fi card that auto-uploads to our flickr account: https://www.flickr.com/photos/crashspacela/ 
+
+Events are paid formal classes (Intro to CNC) to free informal meet-ups like learncodewithus.com 
+
+
+####What is a hackerspace anyway? 
+
+Hackerspaces are a global phenomena.  You can find out more about them in the United States by checking out http://www.wired.com/gadgetlab/2009/03/hackerspaces/
+
+This image is from the website http://hackerspaces.org####What are hackerspaces like?
+
+Each space is a little bit different in terms of their
+
+- focus
+- type of community involvement
+- its physical size
+- the type of equipment it has
+- how much it costs to participate
+- how open to the public it is
+- how kid friendly it is
+- what it does to raise money
+
+If you live near a space that doesn’t fit what you need, there may be another near by… or start your own!
+####What kind of tools do hackerspaces have? 
+
+Every space is different but At CRASH Space we have a pretty standard compliment of tools: 
+
+Rapid Prototyping: laser cutter, 3d printers, 
+Dirty Shop: drill presses, mills, grinders, bandsaws
+Electronics Bench: oscilloscopes, soldering stations, and so on.  
+
+MOST important though, is the the presence of people who know how to use them all. *Never commit time or space to a tool without knowing who is going to teach others how to use it.*
+####What kind of things happen at a hackerspace? 
+
+Amazing people make magical projects! 
+
+CRASH Space Members are awesome. As mentioned in the introduction, we have a camera with an Eye-Fi card that auto-uploads to our flickr account.  This is been the main way we’ve been able to capture the fabulousness because any one can use it.  https://www.flickr.com/photos/crashspacela/
+
+What happens in a hackerspace depends largely on its membership. Like other hackerspaces, CRASH Space members run the professional gamut.  Toy inventors, CG animators, aerospace engineers, artists, MBAs, students, teachers, and more.  We are very lucky to have a space that feels welcoming to a broad range of people. ###Workshop Instructor
+
+I teach workshops at several arts organizations around Los Angels.  My area of focus is teaching folks who think of themselves as non-technical that there is a lot that they can do.
+
+It is hard hard work to become an engineer or to do software development at an enterprise level, the same way it is is hard work to become a concert pianist. That doesn’t mean you can’t bang on the keys to make some noise. For some folks that initial joy gets them hooked enough or confident enough to go further. 
+
+Thank you Barb Noren for the picture! http://paperstatic.com/###My Other Day Job
+
+Technology has brought us wonders beyond imagining, but we can take it for granted. To fight the complacency, I try to take take commissions to build Art with technology when I can. 
+
+This example was with http://machineproject.com/ for the New Children’s Museum (http://www.thinkplaycreate.org/)
+
+It is a fundraising tool that literally sucks money from the hands of children, setting of a dance of sound an motion and light. 
+###NYU Interactive Telecommunications Program
+
+I went back to school in 2003 to get my Master’s in Interactive Telecommunications from NYU’s TISCH School of the Arts.  I stuck around for another two years as a resident researcher.
+
+When I was a student we used the BX-24 and PIC chips to build things. When I became a researcher I helped move the curriculum to the brand spanking new Arduino Board. ###Human Factors
+Worked for the American Institutes for Research in their small Massachusetts office on everything from websites to medical devices to consumer electronics. AIR is better know for its education policy research, although I was not directly involved.
+
+My background in Usability and Human factors makes the Student-Centered Learning approach very intuitive to me. I’m not sure how it could be anything else, really. 
+
+The image is of a heart rate monitor that I built the testing prototype for in Macromedia Director.  Frustration with having to build software prototypes for physical objects is part of what drove me back to graduate school. 
+
+####Student-Centered Learning / Learner-Centered Education
+http://www.facultyfocus.com/articles/effective-teaching-strategies/five-characteristics-of-learner-centered-teaching/ 
+http://www.edutopia.org/blog/student-centered-learning-environments-paul-bogdan 
+http://ccliconference.org/files/2010/03/Froyd_Stu-CenteredLearning.pdf
+https://teal.ed.gov/tealguide/studentcentered  
+http://www.usciences.edu/teaching/learner-centered/ ###Web Enabled Since the 90’s
+After graduating from college I picked up web development from a book (Thank You Lynda Weinman) and an extension class. They proved to be more practical than any class I ever took in college, although I certainly don’t regret going.
+ 
+There weren’t a lot of people who could handle the whole package (code, design, running a business) so I quickly did well as a consultant building portfolios for professional photographers and designers. That got me more and more work for bigger and bigger companies.  ?
+This is a screen shot of a site I built in 1999. Some of you might realize how crazy impressive this was. No CSS. All tables and sp.gifs. Managed a 400 page site, all flat HTML files, back when it was necessary rather than just “cool.” 
+
+http://web.archive.org/web/19991008222403/http://gii.com/awards/index.html
+
+
+##How I heard about the Gig
+
+Through CRASH Space I met Luz Rivas ( http://www.diygirls.org/, @DIYGirls ).
+
+Luz is friends with the Dean of Economic and Workforce Development at PCC, Salomón Dávila
+
+PCC had an emergency opening mid semester of Spring 2014. 
+##Why I Took the Job
+
+###DesignTECH is awesome
+
+What I loved most about PCC is the DesignTECH program. It was created by created by Salomón Dávila and Deborah Bird. Just received (this week) an accommodation from the Accreditation Committee.
+
+They use a state of the art fab lab to teach math and reading to both college ready and underprepared students.
+
+Fab Lab Tour: http://hackaday.com/2014/08/13/hackerspace-tours-pasadena-city-college/
+
+####Certificate Description
+“Explore a range of design, media and technology related careers through hands on projects in a collaborative, supportive learning environment. Develop your creative problem solving, critical thinking and communication skills while experiencing the latest technology in 2D and 3D design, photo imaging and video production, laser cutting, 3D scanning and printing, wearable technology and robotics. With priority registration for math, English, College Success and Technology courses, you can earn credit towards career Certificates, Associates of Science Degree and Transfer.”
+
+
+####More Information
+
+4 minute recruitment video https://www.youtube.com/watch?v=2mw_etUg7IU&t=22 
+6 minute longer video http://www.youtube.com/watch?v=TzJOGfdAl38 
+
+http://www.pasadena.edu/designtech/
+
+####Courses in the Certificate
+https://docs.google.com/spreadsheets/d/1N8U3u3cO3xue_5SfMqFghVQscHwsZvwUvyRVHxUgLkE/edit?usp=sharing 
+
+####Press
+http://articles.pasadenasun.com/2012-07-12/news/32651507_1_pcc-students-federal-grant-pcc-president-mark-rocha
+
+####Who to Contact
+Since Deborah and Salomón  have moved up the food chain, Sandy Lee is now driving a lot of the curriculum development for this program specifically. 
+
+An example other than the lamp class: she teaches the class that competes in the FormulaE competition and is developing a sustainability certificate. 
+
+Seen here: https://www.flickr.com/photos/artcenteredu/9512003504/ 
+
+
+designtech  [-a-]   pasadena.edu or 626 585 7234
+
+More about the FormulaE races:  http://blogs.artcenter.edu/dottedline/tag/formula-e/   
+###MIT101 Innovative Introductory Course
+
+In this course students build a line following robot, learning welding and Arduino to do it. 
+
+New Call Sign: Manufacturing Industrial Technologies
+http://albertotech.com/pcc-mit-101-introduction-to-robotics #Comparisons
+
+Teaching at a Community College is proving to be very very different than the work I did at CRASH Space. Some of the differences make it more satisfying, some of them… less. ##The Design Spec
+
+When developing a class or a course there are criteria that is has to meet. ###Hackerspace Spec
+- Short. Modular. Topics.
+- Must be on a topic with community interest. 
+- Entertainment, but entertainment for the intellectually engaged.
+- Range of cost sensitivities. 
+- No homework.
+- Low stakes for student.  (If they don’t like us, it wan’t that much money and they move on)
+- High stakes for the institution. (If they don’t like the class, we may never see them again)
+
+####Nice list of the types of things that get taught at Hacker/Makerspaces
+http://wiki.xinchejian.com/wiki/XinCheJian_Curriculum 
+
+####Certification
+CRASH Space doesn’t currently offer any certifications. There may be a pat for that in the future. Perhaps badges.
+- https://learn.adafruit.com/search?q=skill%20badge
+- http://openbadges.org/participating-issuers 
+- https://credly.com/badge-builder 
+- http://www.youtopia.com/info/features/ 
+- http://badges.p2pu.org/en/about ###Traditional Institution (Community College)
+- Must be part of a curriculum determined in conjunction with outside stakeholders. 
+- Your be stuck with each other for a long time. 
+- There are standards to meet.
+- Can’t have unexpected costs during the semester.
+- Homework… well at least you can try. 
+- A certain level of certification is involved. 
+- High stakes for student. (how many choices do they have? official transcripts follow you.)
+- Low stakes for the institution (captive audience in the short term).##Audience Profile
+
+The class specs are different because of the difference between the people coming through the door. Although there are some similarities. ###Hackerspace Audience
+
+These don’t represent things that any given community college student doesn’t have, but things I took for granted that can be relied upon in a Hackerspace audience. 
+
+- Has intrinsic motivation (for a short window of time.)
+- Has confidence that they can learn. 
+	- CRASH Space does outreach programs to reach audience that don’t meet this criteria. 
+- Can perform deductive reasoning tasks.
+	- teacher can give information in one direction and student can use it in the other direction.
+- Can distinguish between signifier and signified.
+	- symbolic reasoning: variables make sense the first time you explain them.
+- Can use the internet.###Community College Audience
+
+Nothing can be assumed about a community college student. Each story is so unique. As they like to say: “We take the top 100%” so the range is huge. 
+
+This has been particularly rough this year because the electronics program collapsed, so we really only have this one feeder class. It has no prerequisites, but it is the only choice so it takes in Engineering students, Career Tech students and Looky-Loos. 
+
+There is a crazy spectrum of abilities and interest levels which has made it very hard to identify Vigotsky's "zone of proximal development” for each individual. ?
+We are looking to add prerequisites to the Introduction To Electronics class, but then to also offer an “introduction to physics” style class for those students who didn’t hit the http://www.cde.ca.gov/pd/ca/sc/ngssstandards.asp before. ##Commonalities
+
+Those differences identified, there are some similarities.
+
+- All walks of life.
+- The class isn’t their world. 
+- The student doesn’t have to be there.
+- International frames of reference. ##Operational Modalities
+
+###Hackerspace Operational Style 
+
+While every space is different here are some of how CRASH Space operates. One of our rules is “don’t make us make a rule” because every regulation or rule creates operational overhead. Someone to remember how to do it, someone to enforce that it is done that way. We’re still all volunteer driven, so no one wants to be that person. 
+
+- Key Terms: Constant flux, Last minute, Bare minimum.
+- Overhead comes from membership fees. They subsidize our free classes.
+- Classes pay for their own materials “Just in Time” ordering. 
+- Big Tools are crowd-funded and amortized over several courses.
+- Our community is awesome. We buy very little. ###Community College
+
+My reaction to moving into a community college space has been… well I’ve tried to maintain the point of view of an anthropologist or ethnographer. I think I can see the thought process behind some of the systems, but I still find some of the differences frustrating.  I’m am taking inspiration from Up the Down Staircase at the moment.  http://www.youtube.com/watch?v=E_e4DfjkUeg 
+
+- Key Terms: Grinding, Well intentioned but weird.  
+- Overhead comes # of students expected to enroll based on past data.
+- Any materials must be purchased months in advance or special POs need to be arranged. 
+- Big Tools are part of a larger budgeting requisition process that happens once a year.
+- Not a lot of extra money and resources floating around the student body. Engage “community partners.”  #Conceptual Schema
+
+How I scaffold my “constructivist” curriculum and lesson plans. ##Start with Engineering Design Pattern
+
+Because of my background as a product designer I am really trying to bring that Engineering Design Pattern to the courses I am designing for PCC as well.  They are open to that technique as you can see from the DesignTECH program. 
+
+This image is from NASA’s k4 (http://www.nasa.gov/audience/foreducators/plantgrowth/reference/Eng_Design_K4.html) curriculum, but there are other design pattern maps to use. This can be used as the scaffolding for the whole semester…
+
+###Other Examples of Design Process Maps
+http://www.telono.com/en/services/usability/ucd-process/
+http://www.nasa.gov/audience/foreducators/plantgrowth/reference/Eng_Design_K4.html
+http://www.nasa.gov/audience/foreducators/plantgrowth/reference/Eng_Design_5-12.html
+http://discoverdesign.org/design/process 
+
+###”Real” Project/Challenge Based Learning Scaffolds 
+- Buck Institute: Essential Project Design Elements (very very good, they have a graphic, too!)
+- http://bie.org/?gclid=CIvu6r3pm8QCFQ-saQodLSkAPw 
+- http://www.nycischool.org/index.php?c=7 
+- http://www.wired.com/2013/10/free-thinkers/ 
+- Challenge Based Learning 10 step guide: https://novareschools.wordpress.com/resources/ ###Use it or Loop It
+
+This Engineering Design pattern can be used as the framework for a whole certificate curriculum, a course or for each unit. 
+
+If your course was a TV series, would it be a serial drama or a procedural? ##Simplified Engineering Design Pattern
+
+For this talk I am going to simplify it down even further as a way to organize the types of resources that I’ve collected. 
+
+When I develop a unit I think about how the students will:
+- Define the Problem
+- Gather the Tools and Material they need
+- Actually make a prototype solution
+- Reflect and share the experience
+##Engineering Design Pattern as a Story
+The Engineering Design pattern is one I have a close relationship to, but it is alien to most students or people new to making.
+
+What is necessary is for that pattern to be transformed into a narrative in their heads, hopefully with them as the protagonist! 
+
+This sense that the student is engaged in a quest is very important underprepared students because they have low confidence and a lot of fear. There needs to be something very compelling carrying them through. 
+
+I 100% admit that I don’t think I’m pulling this off yet.#Resources
+
+These are some links and ideas that I use to create lessons and assessments at each of the stages.##Defining the Problem, Exploring the Themes
+
+Lets face it, the only theme that really gets to anyone is who are they going to be before and after they take the class. 
+
+And while listing the learning objectives at the top of the syllabus is nice, if there no pre-existing intrinsic motivation, that won’t be good enough.  That isn’t visceral.  That doesn’t put of vision of themself, triumphant, in their head.  
+
+Hackerspace students and stereotypical STEM students frequently already have an internalized vision of their story arc.  Either they’ve already set themselves a mission, or they already have a mental model of people who are just like them being successful. They don’t need to be convinced. 
+
+Image Credit:
+http://www.workoutequipmentreviews.net/p90x-before-and-after-see-the-results/###Example Narrative Structures and Themes
+
+Hackerspace students and stereotypical STEM students frequently already have an internalized vision of their story arc.  Either they’ve already set themselves a mission, or they already have a mental model of people who are just like them being successful. They don’t need to be convinced to participate.
+
+Less traditional students will do better with a structure that will empower the student to discover their inner hero. My ideas about some possible overriding narrative arcs that will accomplish this include: 
+
+1. Service Learning: (Community at the center, rather than the student) (serialized)
+	*http://www.3dprinterworld.com/article/pasadena-city-college-design-tech-students-produce-tactile-3d-printed-maps 
+	*http://mncampuscompact.org/wp-content/uploads/2013/04/Strengthening-STEM-through-SL.pdf
+	* http://www.youthcommunityservice.org/article.php/20120831103933724 
+	* http://schools.nyc.gov/community/sis/servicelearning/default.htm 
+	* http://www.calstem.org/Resources.htm 
+	* http://www.floridacompact.org/pdf/stem-manual.pdf 
+	* http://www.calstate.edu/cce/stem/initiatives/learnandserve/processesEC.shtml 
+2. Flawed Human: This is vs. the “Great Man” model. (serialized or procedural)
+	* A lot of people screwed up really badly while discovering this stuff being taught. Why hide that? Faraday had to overcome class distinctions and his boss was a drug addict. 
+	* Shock and Awe the Story of Electricity (BBC)
+	* Great Moments in Science: http://www.youtube.com/user/mwiemeikel2/playlists?shelf_id=2&view=50&sort=dd
+	*Einsteins Big Idea (PBS)
+	*http://www.secretlifeofmachines.com/
+3. Sympathetic Avatar (serialized or procedural)
+	* Animistic - Autobiography of an Electron: http://www.gutenberg.org/ebooks/36456
+	* Play as an aspirational character, think video games: http://www.gonehomegame.com/ 
+4. Dungeon Levels 
+	* “Two Dots” model for those who don’t play
+	*  Become stronger and stronger at the missions become harder and harder
+
+##Gather the “Tools and Materials”
+
+To me the tools and materials aren’t just the physical tools and materials but the formulas they’ll need to be able to use and the vocabulary words that will need to be recognized. 
+
+I also really like the word gathering here. Gathering doesn’t just mean picking up, it means picking up and then KEEPING.  Having a place where you’ve put the idea so you can use it later.
+
+
+Image Credits:
+http://www.toolstop.co.uk/bosch-gks190-190mm-hand-held-circular-saw-240v-p10873
+http://www.theazinspector.com/assets/images/2x4.jpg
+http://www.homedepot.com/p/Houseworks-Bird-House-Kit-94503/100659246###Example Assignments for Gathering
+
+####Reading Apprenticeship Model
+
+Since a lot of gathering is about collecting information through reading there needs to be some work to make students know how to critically consume information.  I find the advice in the Reading Apprenticeship folks applicable to video consumption as well.  
+
+http://readingapprenticeship.org/ 
+
+
+####Socratic Methods
+
+The student is the teacher. Not good for teachers who are failed drama majors.
+
+- Here is a juicy real world question, use these resources to find an answer. You/Your group will present it to the class
+- http://www.ibiblio.org/kuphaldt/socratic/
+
+####How to Ask Questions
+
+More important that coming up with answers is teaching students how to ASK questions that will make people want to help them. 
+
+- http://www.catb.org/esr/faqs/smart-questions.html 
+- https://www.biostars.org/p/75548/ 
+
+####Jigsaw Technique
+
+The Jigsaw Technique was developed to break up racial cliques.  It can help students who aren’t used to doing student work figure out how to have fair divisions of labor.  There is more information at http://en.wikipedia.org/wiki/Jigsaw_(teaching_technique) 
+
+The technique has a nice mix of individual responsibility and social skills and creates an experience analogous to working in cross-discipline teams (21st-Century-Skill). 
+
+#####Examples
+- Student groups based around a component then the groups reshuffle to build a circuit that uses all the parts.
+- Students start in groups where each is responsible for understanding the term in an equations, and then come together to present the formula to the class
+- Students learn how to prepare a deliverable for a project (BOM, Schematic, CAD model) and then come together to document their product. 
+
+
+
+###Example Reference Material
+
+####YouTube Videos
+- tip: try to keep them in the 3 to 7 minute long range (https://courses.edx.org/courses/edX/edX101/2014/info) 
+- tip: student don’t always appreciate that they are “real” lectures, so they have to paired with other exercises that use them.  
+- my playlists: http://www.youtube.com/channel/UCT2w_uME5yIiRPFcTX_pfiw/playlists 
+- if you’re k-12: https://www.opened.io/ has searches by standard.  Not compatible with existing school LMS. 
+
+####Textbook Like Online Resources
+- tip: I pair these with YouTube content so student has option of what type of resource is best. 
+- http://www.allaboutcircuits.com/ 
+- http://www.phy.davidson.edu/instrumentation/NEETS.htm 
+- https://learn.sparkfun.com/ 
+- https://learn.adafruit.com/ 
+- http://www.electronics-tutorials.ws/
+- http://itp.nyu.edu/physcomp/
+- http://hilaroad.com/
+- http://www.instructables.com/ (bad tutorials can become a teachable moment)
+
+####Books & Magazines
+- Make:Electronics
+- Practical Electronics For Inventors
+- Electronics for Dummies All-in-One (UK Edition)
+- Evil Genius series
+- Forrest Mims books are classic (not always up to date part numbers, but still awesome)
+- How to Repair and Troubleshoot
+- Nuts and Volts (magazine)
+- Make Magazine
+
+####Primary Sources
+- Datasheets (image: http://en.wikipedia.org/wiki/Datasheet)
+- Breaking down a Bill of Materials
+- Schematics for real OSHW products  (SparkFun!)
+- “view source” on a web page
+- exploring inside items from the dollar store and thrift stores##Make Something
+
+There are two types of hands on activities:
+	Exercises: Sprints, Scales, Sketches (Monster of The Week, Procedural)
+	Projects: Cross Country, Sonata, Painting (”over-arching storyline”, Serialized)
+
+Image Credits:
+Sprint: https://flic.kr/p/8hA3Er https://flic.kr/p/8hA6ZV 
+Cross Country https://flic.kr/p/pNetZ3 ###Sprints
+
+####Characteristics of an Exercise
+- Short steps that take < students age/10 hours
+- May not end with something the student will keep
+- These can be sub-steps of a project as long as they feel like a complete thought. 
+
+####Tips
+- Great if you have the parts. Try games if you don’t?
+- Copper tape/conductive ink is easier to understand than breadboards.
+
+####Other Peoples Resources
+
+Other than the resources listed under “Gather” here are more places to get ideas for short exercise. 
+
+#####Arduino Sprints
+Oomlot ARDX (PDF)  http://oomlout.com/a/products/ardx/ 
+ITP Physcomp Site  https://itp.nyu.edu/physcomp/labs/labs-electronics/ 
+
+#####Specialty circuit hardware for CareerTech schools
+Even if CareerTech isn’t what you’re doing, knowing that these exist and learning how they work is handy. 
+http://brighterideas.com/ 
+http://electricaltrainingequipment.com/ 
+http://easternwv.indigofiles.com/SpecsAutoLab_030909.pdf
+http://www2.schneider-electric.com/sites/corporate/en/products-services/training/training.page 
+
+#####Specialty circuit hardware for general learning ?(personal opinion: teens and adults should use the real deal solder, breadboards, crimp-tools, custom PCBs)
+http://chibitronics.com/ copper tape and stickers
+Snap Circuits http://www.snapcircuits.net/ 
+Radio Shack 150-in-one projects (spring based, no longer available http://www.youtube.com/watch?v=NbXrx9EDROc )
+Littlebits http://littlebits.cc/ 
+
+#####Mini Games ?- games are good if parts can’t be gotten. 
+- Some tips for writing your own games: http://www.open.edu/openlearnworks/mod/oucontent/view.php?id=52348&printable=1 
+- Some online interactive simulations & games (largely for kids): 
+	- https://phet.colorado.edu/
+	- MINECRAFT!  http://services.minecraftedu.com/wiki/Teaching_with_MinecraftEdu
+	- http://www.learningcircuits.co.uk/ has student pick the avatar that explains to them.
+	- http://www.hydroquebec.com/learning/jeux.html
+	- http://interactivesites.weebly.com/electricity-and-energy.html
+	- http://www.andythelwell.com/blobz/
+	- http://www.bbc.co.uk/bitesize/ks2/science/physical_processes/electrical_circuits/play/
+	- http://resources.woodlands-junior.kent.sch.uk/revision/science/electricity.htm 
+	- http://www.learn4good.com/games/online/electricityforkids.htm 
+
+Image Credits
+Sprint: https://flic.kr/p/8hA3Er https://flic.kr/p/8hA6ZV 
+####My Worksheets
+
+These worksheets have evolved over the past three semesters. I started with giving out the circuit diagram. I’m pushing my students a bit harder this semester where I give a parts list and a behavior they are supposed to recreate. 
+
+Having a worksheet forces some reflection at the time of the build.  There are measurements to take, math to do, and the rubric at the bottom. Students are not allowed to turn them in and move on to the next one until the sheet the student is working on is up to snuff. ###Projects
+
+####Characteristics of an Exercise
+- Longer multistep processes.
+- Ideally student ends up with something they *want to keep* or has real product for someone at the end of it. 
+
+####Tips
+- Project spec should represent a floor not ceiling.  
+	- For example just yesterday, I had a student ask if they could use a 555 timer instead of a NPN transistor to build a nightlight circuit. The answer is YES.
+The rubric should leave room for self expression.
+
+####On going concerns
+
+The trouble I’m having is coming up with projects that are simple, inspiring and don’t cost much at all to produce.  The school can do some subsidizing, but I sourcing parts will continue to be a challenge. 
+
+One help is sharable Digikey’s shareable BOMs (Bill of Materials, i.e. project shopping cart).
+
+####Other Peoples Resources
+
+Other than the resources listed under “Gather” and “Exercise” here are more places to get ideas for full on projects.
+
+- Just found out: pblu.org and  bie.org 
+- http://www.hightechhigh.org/ 
+- http://www.envisionprojects.org/pub/docs/envision/index.htm 
+More at https://docs.google.com/document/d/1gDRrgtcViTNICxbHafOiHmGLX9y_9nwrZbFRVCciEuo/edit?usp=sharing 
+Next On my Reading List: “Growth Mindset” http://mindsetonline.com/changeyourmindset/firststeps/index.html How to train the students to have the confidence to push through a longer hard project. ####Example Unit Project: DIY Continuity Tester v1
+
+In the spring I was desperate for cheap but potentially useful projects.  Since I was coming in last minute I was hoping the students would appreciate the change to a hands on style and forgive me if I made them go buy their own parts. I tried to keep everything source-able from the dollar store.  
+
+I was told to start from the beginning, so I started with conductors/insulators/continuity. I went to the dollar store, bought parts and made a “continuity” tester with them. I then asked students to do the same thing. 
+
+The variety of projects and documentation styles that got turned in was super inspiring and motivating for me as a teacher.
+
+#####How were the students told what to do?
+
+Because I didn’t have access to the schools LMS yet when I started I created a tumblr for the class. Why tumblr? There is an app that works on smart phones. I thought it would be low stress to interact with.  In turned out to be very hard to sort by student, so grading was hard. 
+
+http://pcceltn130.tumblr.com/post/81691001208/lab-03-build-your-own-continuity-tester 
+
+
+
+####Example Unit Project: DIY Continuity Tester v2
+
+In the first unit we are exploring conductors vs. insulators again. Since my students don’t have a lot of spare cash I felt it was important that source all the necessary parts this time. I created a “continuity tester” out of cardboard and copper tape. So far only a tiny fraction of students push the idea further.
+
+#####Is the change an improvement?
+
+Maybe? Students learn how to solder on this project. It is clear, simple, serves a purpose.  There is 100% completion of the project (not the write up, however). I think students are happy with it, but definitely read as less impressed with themselves.  I am hoping as I have more examples for students who’ve improvised there will be higher percentages of student who go creative. 
+
+
+##Reflect on the Experience  / Resolution
+
+In science, the folks who have units named after them are the folks who were able to publish and distribute their work. Hating creating documentation is very common, but sometimes the documentation of a project is the only thing that endures.
+
+When students create documentation they are creating a portfolio that not only can be used in future job hunts, but that reflects back to them how far they’ve come.  When they can put the work in a broader context they’re more likely to remember the lessons it was trying to teach. 
+
+###Assignment Characteristics
+- Base Rubric with Unit Specific Criteria. 
+- Deliverable format agnostic, except
+	- internet upload-able. 
+	- stand without them there to explain it.
+- Opportunity to revise to increase their grade.
+###Example Rubric
+
+For this semester I’ve created a base rubric that has some general quality guidelines for how to communicate what they know.
+
+https://docs.google.com/document/d/1tcwpWpav51IfDByfbLnokQFOLY13DYwcciAwYwJYr2E/edit?usp=sharing 
+Each unit has specific content that that base rubric’s scale will be applied to.
+
+I’m not sure if this is the “right way” to use rubrics, but for now it makes it possible to have a familiar pattern across all the project write ups so students can explore and improve their “write-ups” style across the whole semester. 
+
+#Conclusions
+
+I would like others not to have to have the same sensation of having to recreate the wheel that I’ve had. 
+
+keep an eye on https://github.com/oshwc for forkable websites.  I won’t have much time until the summer. I’m sure you all very much understand! 
+
+
